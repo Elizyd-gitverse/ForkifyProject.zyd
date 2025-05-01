@@ -1,5 +1,5 @@
 import ParentView from "./ParentView";
-import icons from '../../img/icons.svg'
+import icons from 'url:../../img/icons.svg'
 
 class RenderPaginationView extends ParentView {
     _parentElement =  document.querySelector('.pagination');
