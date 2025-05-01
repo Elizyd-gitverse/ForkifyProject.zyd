@@ -1,6 +1,6 @@
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
-
+console.log('working fine')
 
 import * as modal from './modal.js'
 import RenderRecipeView from './Views/RenderRecipeView.js'

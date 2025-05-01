@@ -683,6 +683,7 @@ var _renderBookmarkViewJs = require("./Views/RenderBookmarkView.js");
 var _renderBookmarkViewJsDefault = parcelHelpers.interopDefault(_renderBookmarkViewJs);
 var _addRecipeviewJs = require("./Views/addRecipeview.js");
 var _addRecipeviewJsDefault = parcelHelpers.interopDefault(_addRecipeviewJs);
+console.log('working fine');
 const timeout = function(s) {
     return new Promise(function(_, reject) {
         setTimeout(function() {
