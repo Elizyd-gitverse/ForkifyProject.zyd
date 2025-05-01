@@ -13,6 +13,7 @@ class RenderRecipeView extends ParentView {
      addHandlerUpdateServing(handler) {
        this._parentElement.addEventListener('click', function(e) {
         const clicked = e.target.closest('.btn--tiny')
+        console.log(clicked)
         if(!clicked) return
         const updateto = +clicked.dataset.updateto;
         if(updateto > 0) handler(updateto)
@@ -22,7 +23,7 @@ class RenderRecipeView extends ParentView {
      addHandlerBookmark(handler) {
        this._parentElement.addEventListener('click', function(e) {
         const clicked = e.target.closest('.btn--bookmark')
-        console.log(clicked)
+        if(!clicked) return
         handler()
        })
      }

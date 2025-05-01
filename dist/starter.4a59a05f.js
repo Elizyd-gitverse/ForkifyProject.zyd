@@ -684,14 +684,6 @@ var _renderBookmarkViewJsDefault = parcelHelpers.interopDefault(_renderBookmarkV
 var _addRecipeviewJs = require("./Views/addRecipeview.js");
 var _addRecipeviewJsDefault = parcelHelpers.interopDefault(_addRecipeviewJs);
 console.log('working fine');
-const timeout = function(s) {
-    return new Promise(function(_, reject) {
-        setTimeout(function() {
-            reject(new Error(`Request took too long! Timeout after ${s} second`));
-        }, s * 1000);
-    });
-};
-// https://forkify-api.jonas.io
 ///////////////////////////////////////
 const LoadRecipe = async function() {
     try {
@@ -2753,6 +2745,7 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
     addHandlerUpdateServing(handler) {
         this._parentElement.addEventListener('click', function(e) {
             const clicked = e.target.closest('.btn--tiny');
+            console.log(clicked);
             if (!clicked) return;
             const updateto = +clicked.dataset.updateto;
             if (updateto > 0) handler(updateto);
@@ -2761,7 +2754,7 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
     addHandlerBookmark(handler) {
         this._parentElement.addEventListener('click', function(e) {
             const clicked = e.target.closest('.btn--bookmark');
-            console.log(clicked);
+            if (!clicked) return;
             handler();
         });
     }
