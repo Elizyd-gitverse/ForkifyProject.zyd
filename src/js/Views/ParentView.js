@@ -1,5 +1,5 @@
 import { mark } from 'regenerator-runtime'
-import icons from '../../img/icons.svg'
+import icons from 'url:../../img/icons.svg'
 
 export default class ParentView {
   _data
