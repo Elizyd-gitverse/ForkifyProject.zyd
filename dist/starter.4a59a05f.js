@@ -2852,7 +2852,7 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderRecipeView();
 
-},{"./ParentView":"ffCDk","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"ffCDk":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ffCDk":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _regeneratorRuntime = require("regenerator-runtime");
@@ -2908,7 +2908,10 @@ class ParentView {
 }
 exports.default = ParentView;
 
-},{"regenerator-runtime":"f6ot0","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"gsPKI":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime":"f6ot0","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"fd0vu":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
+
+},{}],"gsPKI":[function(require,module,exports,__globalThis) {
 // FRACTY CONVERTS DECIMAL NUMBERS TO FRACTIONS BY ASSUMING THAT TRAILING PATTERNS FROM 10^-2 CONTINUE TO REPEAT
 // The assumption is based on the most standard numbering conventions
 // e.g. 3.51 will convert to 3 51/100 while 3.511 will convert to 3 23/45
@@ -3002,9 +3005,6 @@ function returnStrings(den, num, integer, type) {
     else if (integer == '0') return `${type}${num}/${den}`;
     else return `${type}${integer} ${num}/${den}`; //If there's an integer and a fraction return both.
 }
-
-},{}],"fd0vu":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
 
 },{}],"Wfkm1":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -3113,7 +3113,7 @@ class RenderPaginationView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderPaginationView();
 
-},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"6Slfc":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6Slfc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _parentView = require("./ParentView");
