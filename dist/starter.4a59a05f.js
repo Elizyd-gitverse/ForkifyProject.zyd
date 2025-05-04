@@ -160,11 +160,11 @@
       });
     }
   }
-})({"iEB9d":[function(require,module,exports,__globalThis) {
+})({"kM9mE":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 60747;
+var HMR_SERVER_PORT = 52132;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -2852,13 +2852,12 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderRecipeView();
 
-},{"./ParentView":"ffCDk","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"ffCDk":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ffCDk":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
-console.log((0, _iconsSvgDefault.default));
 class ParentView {
     _data;
     render(data) {
@@ -2909,7 +2908,7 @@ class ParentView {
 }
 exports.default = ParentView;
 
-},{"regenerator-runtime":"f6ot0","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"fd0vu":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime":"f6ot0","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fd0vu":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
 
 },{}],"gsPKI":[function(require,module,exports,__globalThis) {
@@ -3114,7 +3113,7 @@ class RenderPaginationView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderPaginationView();
 
-},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"6Slfc":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6Slfc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _parentView = require("./ParentView");
@@ -3176,6 +3175,6 @@ class AddRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new AddRecipeView;
 
-},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["iEB9d","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["kM9mE","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=starter.4a59a05f.js.map

@@ -2,7 +2,6 @@ import ParentView from './ParentView';
 import icons from 'url:../../img/icons.svg'
 import fracty from 'fracty'
 
-
 console.log('icon not visible i need to update it')
 
 class RenderRecipeView extends ParentView {

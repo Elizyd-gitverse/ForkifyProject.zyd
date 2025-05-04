@@ -1,9 +1,5 @@
 import { mark } from 'regenerator-runtime'
 import icons from 'url:../../img/icons.svg'
-console.log(icons)
-
-
-
 
 export default class ParentView {
   _data
