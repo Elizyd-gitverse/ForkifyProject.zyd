@@ -2858,6 +2858,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _iconsSvg = require("../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
+console.log((0, _iconsSvgDefault.default));
 class ParentView {
     _data;
     render(data) {
