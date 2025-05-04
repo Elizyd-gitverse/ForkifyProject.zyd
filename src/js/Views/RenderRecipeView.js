@@ -1,7 +1,7 @@
 import ParentView from './ParentView';
-import icons from 'url:../../img/icons.svg'
+import icons from '../../img/icons.svg'
 import fracty from 'fracty'
-const iconUrl = icons.default || icons;
+
 
 console.log('icon not visible i need to update it')
 
@@ -44,7 +44,7 @@ class RenderRecipeView extends ParentView {
          <div class="recipe__details">
            <div class="recipe__info">
              <svg class="recipe__info-icon">
-               <use href="${iconUrl}#icon-clock"></use>
+               <use href="${icons}#icon-clock"></use>
              </svg>
              <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>
              <span class="recipe__info-text">minutes</span>

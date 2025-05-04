@@ -130,7 +130,7 @@
 
   // Only insert newRequire.load when it is actually used.
   // The code in this file is linted against ES5, so dynamic import is not allowed.
-  function $parcel$resolve(url) {  url = importMap[url] || url;  return import.meta.resolve(distDir + url);}newRequire.resolve = $parcel$resolve;
+  // INSERT_LOAD_HERE
 
   Object.defineProperty(newRequire, 'root', {
     get: function () {
@@ -160,11 +160,11 @@
       });
     }
   }
-})({"2gVsr":[function(require,module,exports,__globalThis) {
+})({"iEB9d":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 54668;
+var HMR_SERVER_PORT = 60747;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -2727,11 +2727,10 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _parentView = require("./ParentView");
 var _parentViewDefault = parcelHelpers.interopDefault(_parentView);
-var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvg = require("../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fracty = require("fracty");
 var _fractyDefault = parcelHelpers.interopDefault(_fracty);
-const iconUrl = (0, _iconsSvgDefault.default).default || (0, _iconsSvgDefault.default);
 console.log('icon not visible i need to update it');
 class RenderRecipeView extends (0, _parentViewDefault.default) {
     _parentElement = document.querySelector('.recipe');
@@ -2772,7 +2771,7 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
          <div class="recipe__details">
            <div class="recipe__info">
              <svg class="recipe__info-icon">
-               <use href="${iconUrl}#icon-clock"></use>
+               <use href="${0, _iconsSvgDefault.default}#icon-clock"></use>
              </svg>
              <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>
              <span class="recipe__info-text">minutes</span>
@@ -2853,11 +2852,11 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderRecipeView();
 
-},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ffCDk":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","../../img/icons.svg":"d6UCS","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ffCDk":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _regeneratorRuntime = require("regenerator-runtime");
-var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvg = require("../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 console.log((0, _iconsSvgDefault.default));
 class ParentView {
@@ -2910,10 +2909,7 @@ class ParentView {
 }
 exports.default = ParentView;
 
-},{"regenerator-runtime":"f6ot0","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"fd0vu":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
-
-},{}],"gsPKI":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime":"f6ot0","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"d6UCS":[function() {},{}],"gsPKI":[function(require,module,exports,__globalThis) {
 // FRACTY CONVERTS DECIMAL NUMBERS TO FRACTIONS BY ASSUMING THAT TRAILING PATTERNS FROM 10^-2 CONTINUE TO REPEAT
 // The assumption is based on the most standard numbering conventions
 // e.g. 3.51 will convert to 3 51/100 while 3.511 will convert to 3 23/45
@@ -3062,7 +3058,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _parentView = require("./ParentView");
 var _parentViewDefault = parcelHelpers.interopDefault(_parentView);
-var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvg = require("../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class RenderPaginationView extends (0, _parentViewDefault.default) {
     _parentElement = document.querySelector('.pagination');
@@ -3115,7 +3111,7 @@ class RenderPaginationView extends (0, _parentViewDefault.default) {
 }
 exports.default = new RenderPaginationView();
 
-},{"./ParentView":"ffCDk","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6Slfc":[function(require,module,exports,__globalThis) {
+},{"./ParentView":"ffCDk","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"6Slfc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _parentView = require("./ParentView");
@@ -3177,6 +3173,6 @@ class AddRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new AddRecipeView;
 
-},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["2gVsr","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["iEB9d","7dWZ8"], "7dWZ8", "parcelRequire3a11", {})
 
 //# sourceMappingURL=starter.4a59a05f.js.map
