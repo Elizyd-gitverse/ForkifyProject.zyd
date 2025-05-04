@@ -1,5 +1,5 @@
 import ParentView from './ParentView';
-import icons from '../../img/icons.svg'
+import icons from 'url:../../img/icons.svg'
 import fracty from 'fracty'
 
 
