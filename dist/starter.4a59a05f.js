@@ -160,11 +160,11 @@
       });
     }
   }
-})({"5DuvQ":[function(require,module,exports,__globalThis) {
+})({"2gVsr":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 54668;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -2731,6 +2731,7 @@ var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fracty = require("fracty");
 var _fractyDefault = parcelHelpers.interopDefault(_fracty);
+const iconUrl = (0, _iconsSvgDefault.default).default || (0, _iconsSvgDefault.default);
 console.log('icon not visible i need to update it');
 class RenderRecipeView extends (0, _parentViewDefault.default) {
     _parentElement = document.querySelector('.recipe');
@@ -2771,7 +2772,7 @@ class RenderRecipeView extends (0, _parentViewDefault.default) {
          <div class="recipe__details">
            <div class="recipe__info">
              <svg class="recipe__info-icon">
-               <use href="${0, _iconsSvgDefault.default}#icon-clock"></use>
+               <use href="${iconUrl}#icon-clock"></use>
              </svg>
              <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>
              <span class="recipe__info-text">minutes</span>
@@ -2909,7 +2910,7 @@ class ParentView {
 }
 exports.default = ParentView;
 
-},{"regenerator-runtime":"f6ot0","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"fd0vu"}],"fd0vu":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime":"f6ot0","../../img/icons.svg":"d6UCS","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"d6UCS":[function() {},{}],"fd0vu":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
 
 },{}],"gsPKI":[function(require,module,exports,__globalThis) {
@@ -3176,6 +3177,6 @@ class AddRecipeView extends (0, _parentViewDefault.default) {
 }
 exports.default = new AddRecipeView;
 
-},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"./ParentView":"ffCDk","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["2gVsr","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=starter.4a59a05f.js.map
