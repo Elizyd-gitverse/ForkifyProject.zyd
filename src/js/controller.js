@@ -10,7 +10,7 @@ import RenderPaginationView from './Views/RenderPaginationView.js'
 import RenderPaginationView from './Views/RenderPaginationView.js'
 import RenderBookmarkView from './Views/RenderBookmarkView.js'
 import addRecipeview from './Views/addRecipeview.js'
-
+console.log("new Folder")
 
 ///////////////////////////////////////
 
